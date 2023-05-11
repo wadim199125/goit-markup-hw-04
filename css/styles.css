@@ -331,14 +331,17 @@ margin-bottom: 8px;
     background-color: #404bbf;
 }
 /* section-4 */
-.Customers-title {
+.customers-title {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.customers-title-item {
+    line-height: 1.1;
 }
 .customers {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 }
 .customers-list-link {
     display: flex;

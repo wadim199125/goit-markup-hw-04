@@ -270,7 +270,7 @@ color: #2E2F42;
     padding-bottom: 120px;
 }
 .people-windows {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
 }
 .people {
@@ -312,7 +312,7 @@ margin-bottom: 8px;
 .social-list {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 }
 .social-list-link {
     display: flex;
@@ -324,7 +324,11 @@ margin-bottom: 8px;
     background-color: #4D5AE5;
 }
 .social-list-icon {
-    fill: #ffffff;
+    fill: #f4f4fd;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404bbf;
 }
 /* section-4 */
 .Customers-title {

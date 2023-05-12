@@ -350,13 +350,16 @@ img {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color:#8e8f99;
 }
 .customers-list-icon {
-  fill: #8e8f99;
+    fill: currentColor;
+   
 }
 .customers-list-link:hover .customers-list-icon,
 .customers-list-link:focus .customers-list-icon {
-  fill: #404bbf;
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 /* footer */

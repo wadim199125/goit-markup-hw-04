@@ -360,11 +360,12 @@ margin-bottom: 8px;
     fill: #404BBF;
 }
 
-/* foorer */
+/* footer */
 .title-body-medium {
 font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 .footer-container {
     align-items: baseline;
@@ -387,7 +388,7 @@ font-weight: 500;
 }
 .footer-top-page{
     background-color: #2E2F42;
-    
+
 }
 .page-footer {
     background: #2E2F42;
@@ -423,6 +424,10 @@ margin-top: 16px;
 .foter-social {
     display: flex;
     justify-content: flex-;
+}
+.footer-color:hover,
+.footer-color:focus {
+    background-color: #31d0aa 
 }
 /* portfolio */
 
